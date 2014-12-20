@@ -28,6 +28,7 @@
 #import "Command.h"
 #import "CommandRemote.h"
 #import "AdapterTurkey.h"
+#import "StateGumball.h"
 
 @interface ViewController ()
 
@@ -39,7 +40,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self testTurkey];
+    [self testGumballMachine];
 }
 
 #pragma mark - Strategy Pattern
@@ -214,6 +215,23 @@
     TurkeyAdapter *turkeyAdapter = [[TurkeyAdapter alloc] initWithTurkey:wildTurkey];
     [turkeyAdapter quack];
     [turkeyAdapter fly];
+}
+
+- (void)testGumballMachine
+{
+    GumballMachine *gumballMachine = [[GumballMachine alloc] initWithCount:5];
+    [gumballMachine insertQuarter];
+    
+    [gumballMachine turnCrank];
+    
+    NSLog(@"Gumballs left: %d", gumballMachine.count);
+    [gumballMachine insertQuarter];
+    [gumballMachine turnCrank];
+    NSLog(@"Gumballs left: %d", gumballMachine.count);
+    [gumballMachine insertQuarter];
+    [gumballMachine turnCrank];
+    NSLog(@"Gumballs left: %d", gumballMachine.count);
+
 }
 
 

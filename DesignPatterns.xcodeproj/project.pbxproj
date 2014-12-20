@@ -60,6 +60,12 @@
 		4A200F891A44CD1C00E21667 /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A200F881A44CD1C00E21667 /* WildTurkey.m */; };
 		4A200F8E1A44CDEE00E21667 /* TurkeyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A200F8D1A44CDEE00E21667 /* TurkeyAdapter.m */; };
 		4A200F911A44CEDB00E21667 /* SimpleMallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A200F901A44CEDB00E21667 /* SimpleMallardDuck.m */; };
+		4A4DC6421A4545D700B3FFF5 /* SoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4DC6411A4545D700B3FFF5 /* SoldState.m */; };
+		4A4DC6451A4545E200B3FFF5 /* SoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4DC6441A4545E200B3FFF5 /* SoldOutState.m */; };
+		4A4DC6481A4545EC00B3FFF5 /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4DC6471A4545EC00B3FFF5 /* NoQuarterState.m */; };
+		4A4DC64B1A4545F900B3FFF5 /* HasQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4DC64A1A4545F900B3FFF5 /* HasQuarterState.m */; };
+		4A4DC6511A4546F500B3FFF5 /* GumballMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4DC6501A4546F500B3FFF5 /* GumballMachine.m */; };
+		4AA491391A45569E00EE5F94 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA491381A45569E00EE5F94 /* WinnerState.m */; };
 		4ADF3A8F1A425A5E0035CF21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3A8E1A425A5E0035CF21 /* main.m */; };
 		4ADF3A921A425A5E0035CF21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3A911A425A5E0035CF21 /* AppDelegate.m */; };
 		4ADF3A951A425A5E0035CF21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3A941A425A5E0035CF21 /* ViewController.m */; };
@@ -194,6 +200,20 @@
 		4A200F8D1A44CDEE00E21667 /* TurkeyAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TurkeyAdapter.m; path = ../TurkeyAdapter.m; sourceTree = "<group>"; };
 		4A200F8F1A44CEDB00E21667 /* SimpleMallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMallardDuck.h; sourceTree = "<group>"; };
 		4A200F901A44CEDB00E21667 /* SimpleMallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMallardDuck.m; sourceTree = "<group>"; };
+		4A4DC63E1A45457B00B3FFF5 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		4A4DC6401A4545D700B3FFF5 /* SoldState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldState.h; sourceTree = "<group>"; };
+		4A4DC6411A4545D700B3FFF5 /* SoldState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldState.m; sourceTree = "<group>"; };
+		4A4DC6431A4545E200B3FFF5 /* SoldOutState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldOutState.h; sourceTree = "<group>"; };
+		4A4DC6441A4545E200B3FFF5 /* SoldOutState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldOutState.m; sourceTree = "<group>"; };
+		4A4DC6461A4545EC00B3FFF5 /* NoQuarterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoQuarterState.h; sourceTree = "<group>"; };
+		4A4DC6471A4545EC00B3FFF5 /* NoQuarterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoQuarterState.m; sourceTree = "<group>"; };
+		4A4DC6491A4545F900B3FFF5 /* HasQuarterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasQuarterState.h; sourceTree = "<group>"; };
+		4A4DC64A1A4545F900B3FFF5 /* HasQuarterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasQuarterState.m; sourceTree = "<group>"; };
+		4A4DC64D1A45461900B3FFF5 /* StateGumball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StateGumball.h; path = ../StateGumball.h; sourceTree = "<group>"; };
+		4A4DC64F1A4546F500B3FFF5 /* GumballMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GumballMachine.h; path = ../GumballMachine.h; sourceTree = "<group>"; };
+		4A4DC6501A4546F500B3FFF5 /* GumballMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GumballMachine.m; path = ../GumballMachine.m; sourceTree = "<group>"; };
+		4AA491371A45569E00EE5F94 /* WinnerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinnerState.h; sourceTree = "<group>"; };
+		4AA491381A45569E00EE5F94 /* WinnerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
 		4ADF3A891A425A5E0035CF21 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADF3A8D1A425A5E0035CF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADF3A8E1A425A5E0035CF21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -407,6 +427,35 @@
 			name = "Adapter (Turkey)";
 			sourceTree = "<group>";
 		};
+		4A4DC63F1A45458200B3FFF5 /* State (Gumball) */ = {
+			isa = PBXGroup;
+			children = (
+				4A4DC64D1A45461900B3FFF5 /* StateGumball.h */,
+				4A4DC63E1A45457B00B3FFF5 /* State.h */,
+				4A4DC64F1A4546F500B3FFF5 /* GumballMachine.h */,
+				4A4DC6501A4546F500B3FFF5 /* GumballMachine.m */,
+				4A4DC6521A45481500B3FFF5 /* States */,
+			);
+			name = "State (Gumball)";
+			sourceTree = "<group>";
+		};
+		4A4DC6521A45481500B3FFF5 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				4A4DC6401A4545D700B3FFF5 /* SoldState.h */,
+				4A4DC6411A4545D700B3FFF5 /* SoldState.m */,
+				4A4DC6431A4545E200B3FFF5 /* SoldOutState.h */,
+				4A4DC6441A4545E200B3FFF5 /* SoldOutState.m */,
+				4A4DC6461A4545EC00B3FFF5 /* NoQuarterState.h */,
+				4A4DC6471A4545EC00B3FFF5 /* NoQuarterState.m */,
+				4A4DC6491A4545F900B3FFF5 /* HasQuarterState.h */,
+				4A4DC64A1A4545F900B3FFF5 /* HasQuarterState.m */,
+				4AA491371A45569E00EE5F94 /* WinnerState.h */,
+				4AA491381A45569E00EE5F94 /* WinnerState.m */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
 		4ADF3A801A425A5E0035CF21 = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +484,7 @@
 				4A1D97621A43E32C00B42A0D /* Singleton (ChocolateBoiler) */,
 				4A1D97661A43EF6500B42A0D /* Command (Remote) */,
 				4A200F851A44CC9000E21667 /* Adapter (Turkey) */,
+				4A4DC63F1A45458200B3FFF5 /* State (Gumball) */,
 				4ADF3A901A425A5E0035CF21 /* AppDelegate.h */,
 				4ADF3A911A425A5E0035CF21 /* AppDelegate.m */,
 				4ADF3A931A425A5E0035CF21 /* ViewController.h */,
@@ -577,14 +627,17 @@
 				4ADF3A951A425A5E0035CF21 /* ViewController.m in Sources */,
 				4A1D97A11A44134400B42A0D /* NoCommand.m in Sources */,
 				4A1D975E1A43D53E00B42A0D /* PizzaIngredientFactory.m in Sources */,
+				4A4DC6421A4545D700B3FFF5 /* SoldState.m in Sources */,
 				4A1D97981A440D2900B42A0D /* StereoOnWithCDCommand.m in Sources */,
 				4A145BA71A429EDD00796D4C /* CurrentConditions.m in Sources */,
 				4A1D979E1A440ED500B42A0D /* CeilingFanOff.m in Sources */,
+				4A4DC6511A4546F500B3FFF5 /* GumballMachine.m in Sources */,
 				4A1D972C1A4344AC00B42A0D /* SteamedMilk.m in Sources */,
 				4A1D97321A43541700B42A0D /* SimplePizzaFactory.m in Sources */,
 				4A1D978F1A440BB200B42A0D /* CeilingFanOn.m in Sources */,
 				4ADF3A921A425A5E0035CF21 /* AppDelegate.m in Sources */,
 				4ADF3A8F1A425A5E0035CF21 /* main.m in Sources */,
+				4A4DC64B1A4545F900B3FFF5 /* HasQuarterState.m in Sources */,
 				4A1D97AD1A44B29C00B42A0D /* MacroCommand.m in Sources */,
 				4A145BA41A429E7400796D4C /* DisplayElement.m in Sources */,
 				4A1D97491A43D1C500B42A0D /* Dough.m in Sources */,
@@ -596,6 +649,7 @@
 				4A1D973D1A43569A00B42A0D /* PepperoniPizza.m in Sources */,
 				4A145BB71A43406100796D4C /* DarkRoast.m in Sources */,
 				4A1D972F1A43455000B42A0D /* Soy.m in Sources */,
+				4A4DC6481A4545EC00B3FFF5 /* NoQuarterState.m in Sources */,
 				4A145BB41A43401A00796D4C /* HouseBlend.m in Sources */,
 				4A1D97441A43D18800B42A0D /* NYPizzaIngredientFactory.m in Sources */,
 				4A1D97581A43D29A00B42A0D /* ReggianoCheese.m in Sources */,
@@ -607,6 +661,7 @@
 				4A1D974F1A43D1D400B42A0D /* Cheese.m in Sources */,
 				4A200F911A44CEDB00E21667 /* SimpleMallardDuck.m in Sources */,
 				4A1D97761A43FCD300B42A0D /* GarageDoorOpenCommand.m in Sources */,
+				4AA491391A45569E00EE5F94 /* WinnerState.m in Sources */,
 				4A1D976A1A43F49100B42A0D /* Command.m in Sources */,
 				4A1D97551A43D28B00B42A0D /* MarineraSauce.m in Sources */,
 				4A145B8D1A4285D500796D4C /* ZSSDuck.m in Sources */,
@@ -626,6 +681,7 @@
 				4A200F891A44CD1C00E21667 /* WildTurkey.m in Sources */,
 				4A1D97391A43555600B42A0D /* Pizza.m in Sources */,
 				4A200F8E1A44CDEE00E21667 /* TurkeyAdapter.m in Sources */,
+				4A4DC6451A4545E200B3FFF5 /* SoldOutState.m in Sources */,
 				4A145B901A42861200796D4C /* FlyBehavior.m in Sources */,
 				4A1D97731A43F9EF00B42A0D /* SimpleRemoteControl.m in Sources */,
 				4A1D977C1A4401D000B42A0D /* RemoteControl.m in Sources */,
